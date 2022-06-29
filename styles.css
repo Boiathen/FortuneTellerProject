@@ -1,0 +1,10 @@
+.bubble{
+  border: solid gold 5px;
+  border-radius: 5%;
+  width: 400px;
+  padding: 10px;
+  
+}
+.button{
+  margin: 10px;
+}
