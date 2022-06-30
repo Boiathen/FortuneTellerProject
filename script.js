@@ -4,8 +4,8 @@ $(".find").click(function() {
 	let worker = $(".har-work").val();
 	let problem = $(".problem").val();
 	if(number >= 15 && worker === "Yes" && problem === "No") {
-		$(".results").append("<p>You will be very succesfull</p>");
+		$(".results").text("You will be very succesfull");
 	} else {
-  		$(".results").append("<p>You will not be successfull</p>");
+  		$(".results").text("You will not be successfull");
 	}
 });
